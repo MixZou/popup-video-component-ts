@@ -1,0 +1,118 @@
+.video {
+  position: relative;
+  overflow: hidden;
+}
+.video-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-controls {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.video-progress {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #222223;
+}
+.video-progress-now {
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: skyblue;
+  position: absolute;
+  z-index: 8;
+}
+.video-progress-suc {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #666;
+}
+.video-progress-bar {
+  height: 14px;
+  width: 14px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: -7px;
+  margin-top: -4px;
+  z-index: 9;
+  cursor: pointer;
+}
+.video-play {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 25px;
+}
+
+.video-play i {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.video-time {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 30px;
+  color: white;
+}
+.video-full {
+  margin-top: 5px;
+  float: right;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 15px;
+}
+.video-full i {
+  cursor: pointer;
+}
+.video-volume {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  height: 45px;
+}
+
+.video-volume i {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.video-vol-progress {
+  position: relative;
+  width: 100px;
+  height: 5px;
+
+  background: #222223;
+}
+.video-vol-progress-now {
+  width: 50%;
+  height: 100%;
+  background: skyblue;
+}
+.video-vol-progress-bar {
+  height: 14px;
+  width: 14px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -7px;
+  margin-top: -4px;
+  cursor: pointer;
+}
